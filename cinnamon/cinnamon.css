@@ -743,8 +743,10 @@ padding: 10px 0px;
 spacing: 5px;
 }
 .run-dialog-label {
-font-size: 1px;
-color: transparent;
+font-size: 15px;
+font-family: "Times New Roman";
+color: rgb(64, 150, 255);
+text-align: center;
 }
 .run-dialog-entry {
 border-image: url("entry-run.svg") 8 0 0 0;
@@ -759,6 +761,8 @@ font-family: monospace;
 .run-dialog {
 border-image: url("entry-run-modal.svg") 4 4 4 4;
 padding: 10px 15px 10px 15px;
+height: 50px;
+width: 300px;
 }
 .lightbox {
 background: rgba(0,0,0,0.0);
