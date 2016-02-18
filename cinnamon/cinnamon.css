@@ -1154,7 +1154,7 @@ background-gradient-start: rgba(10,10,20,.85);
 background-gradient-end: rgba(0, 0, 10, 0.85);
 background-gradient-direction: vertical;
 font-weight: bold;
-color: rgb(120, 204, 255);
+color: white;
 text-decoration: underline;
 border: 3px solid rgb(64,102,255);
 box-shadow: 0px 0px 15px 13px rgba(64,102,255, 0.85);
