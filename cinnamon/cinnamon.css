@@ -1149,9 +1149,9 @@ border-radius: 0px;
 * Workspace OSD
 * ===================================================================*/
 .workspace-osd {
-border-radius: 4px;
-background-gradient-start: rgba(10,10,20,.85);
-background-gradient-end: rgba(0, 0, 10, 0.85);
+border-radius: 5px;
+background-gradient-start: rgba(10,10,10,.85);
+background-gradient-end: rgba(0, 0, 0, 0.85);
 background-gradient-direction: vertical;
 font-weight: bold;
 color: white;
