@@ -844,7 +844,7 @@ padding: 10px 20px 10px 20px;
 transition-duration: 250;
 }
 .menu-favorites-button:hover {
-border-image: url("fav.svg") 9;
+border-image: url("checkbox-off-focus.svg") 3;
 transition-duration: 250;
 }
 .menu-places-box {
@@ -1069,7 +1069,9 @@ padding: 2px;
 }
 .panel-launcher:hover {
     border-image: url("bottom-item-active.svg") 0;
-    transition-duration: 100;
+    border: 0px solid rgba(0,170,255,1);
+    border-bottom-width: 3px;
+    transition-duration: 150;
 }
 /* ===================================================================
 * Applets (applet.js)
