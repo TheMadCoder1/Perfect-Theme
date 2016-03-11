@@ -1063,7 +1063,7 @@ padding-left: 0px;
 }
 .panel-launcher {
 margin: 1px;
-padding: 2px;
+padding: 3px;
 }
 .panel-launcher:hover {
     border-image: url("bottom-item-active.svg") 0;
