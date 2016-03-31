@@ -768,7 +768,7 @@ height: 50px;
 width: 300px;
 }
 .lightbox {
-background: rgba(0,0,0,0.0);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 /* ===================================================================
 * Magnifier
