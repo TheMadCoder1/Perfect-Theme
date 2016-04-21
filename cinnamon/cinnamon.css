@@ -140,7 +140,7 @@ spacing: .5em;
 * ===================================================================*/
 #panel {
     color: #ffffff;
-    background-gradient-start: rgba(60,60,60,0.9);
+    background-gradient-start: rgba(60,60,60,0.7);
     background-gradient-end: rgba(40,40,40,0.9);
     background-gradient-direction: vertical;
     font-size: 9pt;
@@ -763,6 +763,7 @@ font-family: monospace;
 }
 .run-dialog {
 border-image: url("entry-run-modal.svg") 4 4 4 4;
+/*box-shadow: */
 padding: 10px 15px 10px 15px;
 height: 50px;
 width: 300px;
