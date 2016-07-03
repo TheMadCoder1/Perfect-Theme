@@ -33,7 +33,7 @@ border-image: url("scrollbar.svg") 4;
 padding: 4px 8px 5px 8px;
 background-color: rgba(0,0,0,0.85);
 border-radius: 2px;
-font-weight: bold;
+font-weight: normal;
 font-size: 8.5pt;
 }
 /* ===================================================================
@@ -42,8 +42,8 @@ font-size: 8.5pt;
 .popup-menu-boxpointer {
 -boxpointer-gap: 4px;
 -arrow-border-radius: 2px;
--arrow-border-color: rgba(64,102,255,1);
--arrow-border-width: 2px;
+-arrow-border-color: rgba(141, 141, 141,1);
+-arrow-border-width: 1px;
 -arrow-background-color: rgba(40,40,40,0.95);
 -arrow-base: 22px;
 -arrow-rise: 12px;
@@ -829,6 +829,10 @@ padding: 5px;
 /* ===================================================================
 * Menu (menu.js)
 * ===================================================================*/
+.menu-background {
+	box-shadow: 1px -1px 4px 1px rgba(1,1,1,0.6);
+}
+
 .menu-favorites-box {
   margin: auto;
   margin-left: 1000px;
@@ -948,20 +952,20 @@ min-width: 5px;
 }
 .window-list-item-box {
 padding: 0px 4px 0px 4px;
-border-image: url("bottom-item-active-hover.svg") 0;
-transition-duration: 250;
+border-image: url("bottom-item-active-hover.svg") 2;
+transition-duration: 350;
 }
 
 .window-list-item-box:active
 .window-list-item-box:checked,
 .window-list-item-box:focus	{
-border-image: url("bottom-item-active.svg") 0;
+border-image: url("bottom-item-active.svg") 4;
 transition-duration: 250;
 }
 
 .window-list-item-box:hover {
-  border-image: url("window-active.svg") 1 1 1 1 stretch;
-  transition-duration: 250;
+  border-image: url("window-active.svg") 1 1 0 0;
+  transition-duration: 500;
 }
 .window-list-item-demands-attention {
 background-gradient-start: #51bbe9;
@@ -1068,7 +1072,7 @@ margin: 1px;
 padding: 3px;
 }
 .panel-launcher:hover {
-    border-image: url("bottom-item-active.svg") 0;
+    border-image: url("bottom-item-active.svg") 4;
     border: 0px solid rgba(0,170,255,1);
     border-bottom-width: 3px;
     transition-duration: 150;
@@ -1083,8 +1087,8 @@ padding: 0px 0px 0px 1px;
 .applet-separator-line {
 }
 .applet-box {
-padding-left: 5px;
-padding-right: 5px;
+padding-left: 6px;
+padding-right: 6px;
 transition-duration: 250;
 color: rgb(220, 220, 220)
 }
@@ -1098,7 +1102,7 @@ transition-duration: 250;
 .applet-label {
 padding: 0px;
 text-align: center;
-font-weight: bold;
+font-weight: normal;
 color: rgb(215, 215, 215);
 }
 /* ===================================================================
