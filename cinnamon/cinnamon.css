@@ -140,9 +140,10 @@ spacing: .5em;
 * ===================================================================*/
 #panel {
     color: #ffffff;
-    background-gradient-start: rgba(60,60,60,0.9);
+/*    background-gradient-start: rgba(60,60,60,0.9);
     background-gradient-end: rgba(40,40,40,0.9);
     background-gradient-direction: vertical;
+*/    background-color: rgba(10, 10, 10, 0.85);
     font-size: 9pt;
     font-weight: normal;
     height: 40px;
